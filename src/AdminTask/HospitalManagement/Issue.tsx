@@ -112,12 +112,6 @@ const renderIssueCards = (issues: IssueItem[], list: "created" | "done") => (
               {issue.title}
             </Typography>
 
-            {/* Corrected Checkbox */}
-            <Checkbox
-              checked={!!issue.isRead}
-              onChange={() => handleMarkRead(issue._id, list)}
-              color="primary"
-            />
           </div>
 
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 8 }}>
