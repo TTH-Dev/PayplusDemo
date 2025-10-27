@@ -1,0 +1,121 @@
+.cardData{
+    position: relative;
+    bottom: 95px;
+    color: #fff;
+    left: 20px;
+}
+.calendar1{
+    position: relative;
+    bottom: 95px;
+    color: #000;
+    left: 20px;
+}
+.css-1aquho2-MuiTabs-indicator{
+    background-color: #1784A2 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected{
+    color: #1784A2 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    color: #000 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+.runpayrollbtn{
+    width: 15% !important;
+    background-color: #000 !important;
+}
+.tableHead{
+    color: #666 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+.tablebody{
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: #000 !important;
+}
+.css-pdct74-MuiTablePagination-selectLabel {
+    margin: 0 !important;
+}
+.css-levciy-MuiTablePagination-displayedRows{
+    margin: 0 !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate{
+    color: #4e4a4a !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root{
+    color: #D9D9D9 !important;
+}
+.sendpayrollpreviewbtn{
+    background-color: #1E1E2C !important;
+    width: 139px !important;
+    height: 45px !important;
+}
+.donePaymentbtn{
+    padding: 4px 30px !important;
+    background-color: #1E1E2C !important;
+}
+.css-34nofg-MuiTableRow-root.MuiTableRow-hover:hover{
+    background-color: #E8F3F6 !important;
+    cursor: pointer;
+}
+.css-quj9j6-MuiTable-root{
+    border-collapse: unset !important;
+}
+.css-quj9j6-MuiTable-root {
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+.custom-table1 {
+  width: 100%;
+  border-collapse: separate; /* allow radius */
+  border-spacing: 0;         /* remove gaps */
+  border: 1px solid #ccc;
+  border-radius: 8px;        /* no quotes */
+  overflow: hidden;          /* clip inner cells */
+}
+
+
+
+.custom-table1 td,
+.custom-table1 th {
+  border-right: 1px solid #ccc; /* vertical border between columns */
+  padding: 5px 8px;
+  text-align: left;
+}
+
+.custom-table1 th{
+ border-bottom: 1px solid #ccc;
+}
+
+
+/* Remove the last column's border */
+.custom-table1 td:last-child,
+.custom-table1 th:last-child {
+  border-right: none;
+}
+
+
+/* Right-align Amount columns */
+.custom-table1 th:nth-child(2),
+.custom-table1 td:nth-child(2),
+.custom-table1 th:nth-child(4),
+.custom-table1 td:nth-child(4) {
+  text-align: right;
+}
+
+.custom-table1 tr:last-child {
+    border-top: 2px solid #ccc;
+}
+
+
+/* .custom-table1 thead tr {
+  background-color: #f5f5f5; 
+} */
+
+
+

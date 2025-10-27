@@ -1,0 +1,220 @@
+.css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+    background-color: #fff !important;
+}
+.css-1iz4iln{
+    display: flex !important;
+    justify-content: end !important;
+    align-items: end !important;
+    width: 100% !important;
+    bottom: 6px;
+}
+.css-1f5y6oa-MuiButtonBase-root-MuiIconButton-root{
+    width: 10% !important;
+}
+.css-1guk29{
+    width: 25% !important;
+    justify-content: end !important;
+}
+.css-1kcggdq-MuiInputBase-root .MuiInputBase-input{
+    padding-left: 1rem !important;
+    width: 80% !important;
+}
+.css-eqeipb-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+    width: 20% !important;
+    right: 100px !important;
+}
+.css-eqeipb-MuiPaper-root-MuiPopover-paper-MuiMenu-paper::before {
+    right: 20px !important;
+}
+.css-10nakn3-MuiModal-root-MuiPopover-root-MuiMenu-root {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.css-pij7xf-JoyCircularProgress-root{
+    --CircularProgress-size:180px !important;
+    --CircularProgress-progressColor:#1E1E2C !important;
+    --CircularProgress-trackColor:#E2E2E2 !important;
+}
+.dxc-item{
+    display: none !important;
+}
+.dxc-chart{
+    height: 250px !important;
+}
+.highlight {
+    background-color: #1784A2 !important;
+    border-radius: 50% !important;
+    margin: 0.5rem !important;
+    color: #fff;
+}
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root{
+    /* border-radius: 0 !important; */
+    margin: 0.5rem !important;
+}
+.css-1pz7awu-MuiButtonBase-root-MuiIconButton-root:hover{
+    background-color: #1784A2 !important;
+    color: #fff !important;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback){
+    right: 42px !important;
+    border: none !important;
+    background-color: transparent !important;
+    color: black !important;
+    z-index: 999 !important;
+}
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control, .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select, .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating){
+    border-radius: 0 !important;
+}
+#sharebtn{
+    background-color: #FFD1B3 !important;
+    border: none !important;
+    border-radius: 50% !important;
+    height: 45px !important;
+    width: 45px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem !important;
+}
+.css-8wcvy5-MuiStep-root{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+    width: 40px !important;
+    height: 40px !important;
+}
+.css-8t49rw-MuiStepConnector-line {
+    margin-left: 8px !important;
+    border-left-style: dotted !important;
+}
+.css-14sza3e-MuiStepLabel-root{
+    padding: 0 !important;
+}
+.completeHomebtn{
+    color: black;
+    text-decoration: none ;
+    border-bottom: 1px dotted black;
+}
+.css-8t49rw-MuiStepConnector-line {
+    min-height: 35px !important;
+}
+.css-1vyamtt-MuiStepLabel-labelContainer{
+    color: #000 !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active{
+    border-radius: 50%;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root{
+    color: #d9d9d9 !important;
+}
+.css-117w1su-MuiStepIcon-text{
+    fill: #000 !important;
+}
+.css-1cl7zdz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available !important;
+    max-width:665px !important
+}
+.css-8wcvy5-MuiStep-root{
+    width: 665px !important;
+}
+.css-9tmuzo-MuiStepper-root {
+    width: 100% !important;
+}
+
+.boxflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+}
+.logoboxupload{
+    border: 1px solid #1784A2;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nextBtn{
+    width: 139px;
+    height: 45px;
+    background-color: #1784A2 !important;
+    border-radius: 10px !important;
+}
+.skipbtn{
+    font-size: 14px !important;
+    border-bottom-style: dotted !important;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+    border-color: #000 !important;
+    /* border-radius: 0 !important; */
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+    border: 1px solid #000 !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+    border-color: #000 !important;
+    /* border-radius: 0 !important; */
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-input-outlined{
+    border-color: #000 !important;
+    
+}
+.modal-dialog{
+    margin-top: 5rem !important;
+}
+.checkbox-custom {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px; 
+  }
+  :where(.css-dev-only-do-not-override-1ae8k9u).ant-picker{
+    border-color: #000 !important;
+    /* border-radius: 0 !important; */
+  }
+  .itemsList{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+  }
+
+  .headerIcons{
+    color: #1784A2;
+  }
+  .css-1pz7awu-MuiButtonBase-root-MuiIconButton-root:hover .headerIcons{
+    color: #fff;
+  }
+  .industryActive{
+    background-color: #1784A2;
+  }
+  .css-1eqdgzv-MuiPaper-root-MuiSnackbarContent-root{
+    background-color: red !important;
+  }
+  :where(.css-dev-only-do-not-override-1ae8k9u).ant-select-single.ant-select-show-arrow .ant-select-selection-item, :where(.css-dev-only-do-not-override-1ae8k9u).ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+    padding-left: 10px !important;
+
+}
+.error-meg{
+    color: red;
+    font-size: 12px;
+}
+.orgsetupColor{
+    color: #00DD09;
+}
+input{
+    padding-left: 10px;
+}
+:where(.css-dev-only-do-not-override-1kf000u).ant-picker-outlined:hover {
+    border-color: #1784A2 !important;
+}
+.shift-box{
+    box-shadow: 0px 1px 4px 0px #00000040;
+    border-radius: 10px;
+}

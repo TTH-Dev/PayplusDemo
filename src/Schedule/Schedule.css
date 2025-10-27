@@ -1,0 +1,129 @@
+.dx-toolbar-items-container{
+    background-color: rgb(255, 255, 255) !important;
+}
+.dx-scheduler-work-space{
+    background-color: rgb(255, 255, 255) !important;
+}
+.dx-scheduler-header .dx-toolbar .dx-button, .dx-scheduler-header .dx-toolbar .dx-button .dx-icon{
+    color: #000 !important;
+}
+.dx-scheduler-header-panel-cell.dx-scheduler-header-panel-current-time-cell{
+    color: #000 !important;
+}
+.dx-scheduler-time-panel-cell.dx-scheduler-time-panel-current-time-cell{
+    color: #000 !important;
+}
+.dx-scheduler-all-day-table-row{
+    visibility: collapse !important;
+}
+.dx-scheduler-work-space-all-day-collapsed .dx-scheduler-all-day-title{
+    display: none !important;
+}
+/* .dx-scheduler-header-panel-cell{
+    text-align: center !important;
+} */
+.dx-scheduler-appointment{
+    color: #000 !important;
+    font-size: 2rem !important;
+    background-color: rgb(23, 132, 162) !important;
+}
+.dx-scheduler-appointment-title{
+    font-size: 1rem !important;
+}
+.dx-scheduler-appointment-content-date{
+    color: #000 !important;
+}
+.dx-scheduler-time-panel-cell{
+    color: #000 !important;
+    font-weight: 600 !important;
+}
+.dx-scheduler-header-panel-cell {
+    color: #000 !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+.dx-popup-wrapper.dx-scheduler-appointment-tooltip-wrapper .dx-tooltip-appointment-item .dx-tooltip-appointment-item-marker-body, .dx-scheduler-overlay-panel .dx-tooltip-appointment-item .dx-tooltip-appointment-item-marker-body{
+    background-color: rgb(23, 132, 162) !important;
+}
+.dx-button-has-text .dx-button-content, .dx-button-has-text .dx-button-content .dx-button-text{
+    color: #353535 !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+}
+.dx-scheduler-header .dx-toolbar .dx-scheduler-navigator .dx-buttongroup .dx-button .dx-icon {
+    color: #000 !important;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+}
+.dx-button-has-text .dx-icon{
+    color: #000 !important;
+    font-weight: 600 !important;
+    font-size: 1.2rem !important;
+}
+/* .dx-scheduler-header{
+    border: none !important;
+}
+.dx-scheduler-work-space{
+    border: none !important;
+} */
+/* .dx-overlay-shader{
+    display: none !important;
+} */
+.dx-scheduler-work-space.dx-scheduler-work-space-month .dx-scheduler-date-table-current-date{
+    color:rgba(0, 0, 0, .54) !important;
+}
+/* .btnSec{
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    z-index: 10;
+    justify-content: center;
+    right: -10%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+} */
+.btnSec{
+    position: absolute;
+    top: 168px;
+    z-index: 10;
+    right: 25px;
+}
+.dx-toolbar-after {
+    right: 90px !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-checkbox-checked .ant-checkbox-inner{
+    background-color: #D9D9D9 !important;
+    border-color: #D9D9D9 !important;
+}
+.custom-checkbox .ant-checkbox-inner::after {
+    border-color: #000 !important; 
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-inner, :where(.css-dev-only-do-not-override-1ae8k9u).ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner{
+    border-color: #D9D9D9 !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-checkbox-wrapper {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-checkbox-indeterminate .ant-checkbox-inner:after{
+    background-color: transparent !important;
+}
+/* :where(.css-dev-only-do-not-override-1ae8k9u).ant-picker-outlined:hover{
+    border-color: transparent !important;
+} */
+/* :where(.css-dev-only-do-not-override-1ae8k9u).ant-select-outlined:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+    border-color: transparent !important;
+} */
+/* :where(.css-dev-only-do-not-override-1ae8k9u).ant-input-outlined:hover{
+    border-color: transparent !important;
+} */
+
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-input-outlined:focus, :where(.css-dev-only-do-not-override-1ae8k9u).ant-input-outlined:focus-within{
+    box-shadow: none !important;
+}
+.dx-dropdownbutton-has-arrow .dx-dropdownbutton-action.dx-buttongroup-last-item.dx-button-has-text .dx-button-content{
+    display: none !important;
+}

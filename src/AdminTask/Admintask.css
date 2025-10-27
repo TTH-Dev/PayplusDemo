@@ -1,0 +1,9 @@
+.settings-sidebar {
+  overflow-y: auto;
+  max-height: calc(100vh - 60px);
+  scrollbar-width: none; /* Firefox */
+}
+
+.settings-sidebar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
