@@ -1,0 +1,110 @@
+/* Wrapper to fix width and center */
+.calendar-table-wrapper {
+  width: 100% ;  /* fixed width */
+  margin:  auto;     
+  
+}
+
+
+.calendar {
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fff;
+  width: 100%; /* fill wrapper width */
+}
+
+/* Calendar header */
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.calendar-header button {
+  background-color: #eaecec;
+  color: black;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+ 
+}
+
+.calendar-header button:hover {
+  background-color: #b9bdbe;
+}
+
+/* Calendar grid */
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.calendar-weekday {
+  font-weight: 600;
+  text-align: center;
+}
+
+.calendar-cell {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.2s;
+  max-width: 60px;
+}
+
+.calendar-cell:hover {
+  background-color: #f1f7fa;
+}
+
+.calendar-cell.selected {
+  background-color: #1784A2;
+  color: white;
+}
+
+.calendar-cell.empty {
+  cursor: default;
+  background-color: transparent;
+}
+
+/* Table styling */
+.table th,
+.table td {
+  padding: 20px 20px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f1f7fa;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+/* .card {
+  border-radius: 10px;
+} */
+
+.calendar-cell.selected {
+  border: 2px solid #1784A2; /* blue border for selected date */
+  background-color: transparent;
+  color: #1784A2;
+}
+
+.calendar-cell.today {
+  background-color: #1784A2; /* blue square for today */
+  color: white;
+  border-radius: 4px;
+}
+
+.calendar-cell.today.selected {
+  border: 2px solid #005f80; /* darker border if today is selected */
+}

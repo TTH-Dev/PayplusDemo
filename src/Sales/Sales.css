@@ -1,0 +1,33 @@
+.cusOver-P{
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem !important;
+}
+.css-1c35hjw-MuiPaper-root-MuiAccordion-root:last-of-type{
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important; 
+}
+.css-1c35hjw-MuiPaper-root-MuiAccordion-root:first-of-type{
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root{
+    display: inline-flex !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-select-single .ant-select-selector {
+    font-size: 16px !important;
+  
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-select .ant-select-selection-item{
+    font-weight: 0 !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector{
+    border: none !important;
+}
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-select .ant-select-arrow {
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: black !important;
+}
+.tablebodyT{
+    border-bottom: none !important;
+}

@@ -1,0 +1,103 @@
+/* summary.css */
+
+/* Container spacing */
+.container {
+  padding: 1rem 2rem;
+}
+
+/* Card title */
+.card h5 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+/* Text inside card */
+.card p {
+  margin: 0;
+}
+
+/* Large number styling */
+.card p.large-number {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+/* Row spacing inside cards */
+.row.text-sm .col-6 {
+  margin-bottom: 1rem;
+}
+
+/* Pie chart labels */
+.antv-pie-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Line chart gradient */
+.antv-line-shape {
+  fill: linear-gradient(180deg, #0088FE 0%, #ffffff 100%);
+}
+
+/* Column chart bars */
+.antv-column-rect {
+  fill: #007C91;
+}
+
+/* Card spacing in grid */
+.row.g-4 > .col-md-6 {
+  display: flex;
+}
+
+/* Margin top for sections */
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* Priority colors (High/Medium/Low) */
+.priority-high {
+  background-color: #ff4d4f;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.priority-medium {
+  background-color: #faad14;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.priority-low {
+  background-color: #52c41a;
+  color: #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  .card p.large-number {
+    font-size: 20px;
+  }
+}
